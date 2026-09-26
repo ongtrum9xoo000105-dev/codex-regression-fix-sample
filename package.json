@@ -1,0 +1,7 @@
+﻿{
+  "name": "codex-regression-fix-sample",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Minimal Node.js regression-fix portfolio sample with test-first verification.",
+  "scripts": {"test": "node --test"}
+}
