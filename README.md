@@ -2,6 +2,9 @@
 
 A minimal, reproducible Node.js portfolio sample showing a scoped regression fix backed by a test-first workflow.
 
+## Request this service
+[Request a quote on TaskBounty](https://www.task-bounty.com/services/codex-verified-engineering-w64wrg)
+
 ## Scenario
 A money discount calculation can produce a fractional cent. The acceptance rule is to round to the nearest cent, not silently floor the result.
 
