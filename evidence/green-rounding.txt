@@ -1,0 +1,2 @@
+{"mode":"after","amountCents":1001,"discountPercent":10,"expected":901,"actual":901}
+NUMERIC_ROUNDING_CHECK=PASS

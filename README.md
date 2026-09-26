@@ -27,3 +27,14 @@ No network, credentials, database, browser, or paid service is required.
 
 ## Scope
 This repository is intentionally small. It demonstrates reproducing one defect, pinning it with a regression test, implementing a focused fix, and verifying the final behavior without unrelated changes.
+
+## Evidence notes
+This is a self-authored synthetic demonstration, not a client project or paid result. The initial RED log is a missing-module failure; the separate numeric proof demonstrates the actual 900-versus-901 rounding mismatch.
+
+```bash
+node evidence/rounding-proof.cjs before  # Intentionally fails: 900 is not 901.
+node evidence/rounding-proof.cjs after   # Passes using src/pricing.js.
+npm test
+```
+
+See [VERIFICATION.md](VERIFICATION.md) for captured output and the exact limits of this small sample.
